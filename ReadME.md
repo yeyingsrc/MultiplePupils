@@ -26,6 +26,10 @@ MultiplePupils 是TracelessSec团队开发的一款信息收集工具，主要�
 - MultiplePupils v1.2.0 
   - 将支持查询结果导入数据库功能，该功能主要用于特征资产监控清洗等等。
 
+### Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=A-little-dragon/MultiplePupils&type=Date)](https://star-history.com/#A-little-dragon/MultiplePupils&Date)
+
 ### 0x05 工具展示
 
 ![72d970ce5c016165bb284de120f4fa7](./image/72d970ce5c016165bb284de120f4fa7.png)
