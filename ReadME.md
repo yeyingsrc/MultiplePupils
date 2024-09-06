@@ -1,8 +1,12 @@
 ## MultiplePupils | 重瞳
 
+![](https://socialify.git.ci/A-little-dragon/MultiplePupils/image?description=1&font=Jost&forks=1&language=1&name=1&owner=1&pattern=Brick%20Wall&stargazers=1&theme=Dark)
+
 ### 0x01 工具描述
 
 MultiplePupils 是TracelessSec团队开发的一款信息收集工具，主要用于红队渗透过程中网络空间资产收集，旨在方便渗透测试工程师的信息收集，并尽可能减少渗透过程中资产收集耗费的时间。
+
+![](https://img.shields.io/github/release/A-little-dragon/MultiplePupils)![](https://img.shields.io/badge/c++-E53236.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QysrPC90aXRsZT48cGF0aCBkPSJNMjIuMzk0IDZjLS4xNjctLjI5LS4zOTgtLjU0My0uNjUyLS42OUwxMi45MjYuMjJjLS41MDktLjI5NC0xLjM0LS4yOTQtMS44NDggMEwyLjI2IDUuMzFjLS41MDguMjkzLS45MjMgMS4wMTMtLjkyMyAxLjZ2MTAuMThjMCAuMjk0LjEwNC42Mi4yNzEuOTEuMTY3LjI5LjM5OC41NDMuNjUyLjY5bDguODE2IDUuMDljLjUwOC4yOTMgMS4zNC4yOTMgMS44NDggMGw4LjgxNi01LjA5Yy4yNTQtLjE0Ny40ODUtLjQuNjUyLS42OS4xNjctLjI5LjI3LS42MTYuMjctLjkxVjYuOTFjLjAwMy0uMjk0LS4xLS42Mi0uMjY4LS45MXpNMTIgMTkuMTFjLTMuOTIgMC03LjEwOS0zLjE5LTcuMTA5LTcuMTEgMC0zLjkyIDMuMTktNy4xMSA3LjExLTcuMTFhNy4xMzMgNy4xMzMgMCAwMTYuMTU2IDMuNTUzbC0zLjA3NiAxLjc4YTMuNTY3IDMuNTY3IDAgMDAtMy4wOC0xLjc4QTMuNTYgMy41NiAwIDAwOC40NDQgMTIgMy41NiAzLjU2IDAgMDAxMiAxNS41NTVhMy41NyAzLjU3IDAgMDAzLjA4LTEuNzc4bDMuMDc4IDEuNzhBNy4xMzUgNy4xMzUgMCAwMTEyIDE5LjExem03LjExLTYuNzE1aC0uNzl2Ljc5aC0uNzl2LS43OWgtLjc5di0uNzloLjc5di0uNzloLjc5di43OWguNzl6bTIuOTYyIDBoLS43OXYuNzloLS43OXYtLjc5aC0uNzl2LS43OWguNzl2LS43OWguNzl2Ljc5aC43OXoiLz48L3N2Zz4=)![](https://img.shields.io/badge/QT-41CD52.svg?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UXQ8L3RpdGxlPjxwYXRoIGQ9Ik0yMS42OTMgMy4xNjJIMy4zM0wwIDYuNDl2MTQuMzQ4aDIwLjY3MUwyNCAxNy41MVYzLjE2MnpNMTIuNzg1IDE4LjRsLTEuNTYyLjcyOC0xLjM1LTIuMjE3Yy0uMTk2LjA1Ny0uNDk5LjA5LS45MjQuMDktMS41NzkgMC0yLjY4My0uNDI1LTMuMzA1LTEuMjc2LS42MjItLjg1LS45MzItMi4yLS45MzItNC4wMzMgMC0xLjg0LjMxOS0zLjIwNi45NDktNC4wOTguNjMtLjg5MiAxLjcyNi0xLjM0MSAzLjI4OC0xLjM0MSAxLjU2MiAwIDIuNjU4LjQ0MSAzLjI4IDEuMzMzLjYzLjg4My45NCAyLjI1Ljk0IDQuMDk4IDAgMS4yMTktLjEzIDIuMi0uMzg0IDIuOTQ1LS4yNjEuNzUyLS42NzkgMS4zMjUtMS4yNjggMS43MTh6bTQuNzM2LTEuNTg3Yy0uODU4IDAtMS40NDctLjE5Ni0xLjc2Ni0uNTktLjMyLS4zOTItLjQ4My0xLjEzNi0uNDgzLTIuMjMydi0zLjUzNEgxNC4xMVY5LjA1MWgxLjE2MlY2Ljg0M2gxLjY0NFY5LjA1aDIuMDk0djEuNDE1aC0yLjA5NHYzLjM0NmMwIC42MjIuMDUgMS4wMy4xNCAxLjIyNy4wOS4yMDQuMzI2LjMwMy42OTUuMzAzbDEuMjQzLS4wNS4wNzMgMS4zMjZjLS42Ny4xMy0xLjE4Ni4xOTYtMS41NDYuMTk2em0tOC41OC05LjA4Yy0uOTUgMC0xLjYwNC4zMTEtMS45NjMuOTQtLjM1Mi42My0uNTMyIDEuNjI5LS41MzIgMy4wMTEgMCAxLjM3NC4xNzIgMi4zNjQuNTE1IDIuOTUzLjM0NC41ODkgMS4wMDYuODkyIDEuOTguODkyLjk3MyAwIDEuNjI4LS4yOTUgMS45NzEtLjg3Ni4zMzUtLjU4LjUwNy0xLjU3LjUwNy0yLjk1MyAwLTEuMzktLjE3Mi0yLjM5Ni0uNTIzLTMuMDI2LS4zNTItLjYzLTEuMDA2LS45NC0xLjk1NS0uOTRaIi8+PC9zdmc+)
 
 ### 0x02 目前支持的功能
 
@@ -28,7 +32,7 @@ MultiplePupils 是TracelessSec团队开发的一款信息收集工具，主要�
 
 ### Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=A-little-dragon/MultiplePupils&type=Date)](https://star-history.com/#A-little-dragon/MultiplePupils&Date)
+![Star History Chart](https://starchart.cc/A-little-dragon/MultiplePupils.svg)
 
 ### 0x05 工具展示
 
