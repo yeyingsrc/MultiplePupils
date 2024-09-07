@@ -1,8 +1,6 @@
 ## MultiplePupils | 重瞳
 
-<meta property="og:image" content="https://socialify.git.ci/A-little-dragon/MultiplePupils/png?description=1&font=Jost&forks=1&language=1&name=1&owner=1&pattern=Brick%20Wall&stargazers=1&theme=Dark" />
-<meta property="og:image:width" content="1280" />
-<meta property="og:image:height" content="640" />
+![MultiplePupils](https://socialify.git.ci/A-little-dragon/MultiplePupils/image?description=1&font=Jost&forks=1&language=1&name=1&owner=1&pattern=Brick%20Wall&stargazers=1&theme=Dark)
 
 ### 0x01 工具描述
 
