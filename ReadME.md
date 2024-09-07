@@ -3,6 +3,7 @@
 <meta property="og:image" content="https://socialify.git.ci/A-little-dragon/MultiplePupils/png?description=1&font=Jost&forks=1&language=1&name=1&owner=1&pattern=Brick%20Wall&stargazers=1&theme=Dark" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="640" />
+
 ### 0x01 工具描述
 
 MultiplePupils 是TracelessSec团队开发的一款信息收集工具，主要用于红队渗透过程中网络空间资产收集，旨在方便渗透测试工程师的信息收集，并尽可能减少渗透过程中资产收集耗费的时间。
